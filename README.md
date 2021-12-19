@@ -1,1 +1,1 @@
-# M1SubQ
+# M1SubQcurl 'http://70.34.211.203:3000/' -H 'Accept-Encoding: gzip, deflate, br' -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'Connection: keep-alive' -H 'DNT: 1' -H 'Origin: http://70.34.211.203:3000' --data-binary '{"query":"{\n  query {\n    starterEntities(first: 10) {\n      nodes {\n        field1\n      }\n    }\n  }\n}# Write your query or mutation here\n"}' --compressed
